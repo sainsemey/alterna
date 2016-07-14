@@ -1,3 +1,6 @@
+html,body{
+	height: 100%;
+}
 body{
   background-color:#fff;
   font-family:'PTSans',sans-serif;
@@ -58,6 +61,13 @@ ul{
 	clear:both;
 	content:"";
 	display:block;
+}
+.page_wrapper{
+	  min-height: 100%;
+    margin-bottom: -74px;
+}
+.page_buffer {
+    height: 74px;
 }
 .h_top{
 	background-color:#323946;
